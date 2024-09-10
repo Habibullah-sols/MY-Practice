@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Car Section */
+        .car-container {
+            padding: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .car {
+            display: flex;
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .car img {
+            max-width: 100%;
+            width: 300px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .car-info {
+            margin-left: 20px;
+        }
+
+        .car-info h2 {
+            color: #333;
+        }
+
+        .car-info p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #666;
+        }
+
+        .car-info button {
+            padding: 10px 20px;
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .car-info button:hover {
+            background-color: #ff4500;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Cars</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Car Section -->
+    <div class="car-container">
+        <div class="car">
+            <img src="https://via.placeholder.com/300" alt="Car Image">
+            <div class="car-info">
+                <h2>2024 Super Car</h2>
+                <p>This is the latest model of our super car series. It comes with a powerful V8 engine, sleek design, and cutting-edge technology for the ultimate driving experience.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+
+        <div class="car">
+            <img src="https://via.placeholder.com/300" alt="Car Image">
+            <div class="car-info">
+                <h2>2024 Electric Car</h2>
+                <p>Our new electric car is eco-friendly, offering high performance with zero emissions. It features a long battery life, quick acceleration, and a luxurious interior.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Car Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
